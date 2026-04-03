@@ -15,15 +15,18 @@ This project provides a comprehensive analysis of workforce dynamics, focusing o
 •	Salary Distribution: A histogram showing the concentration of staff in the $50k–$70k bracket.
 •	Engagement vs. Performance: Box plots and scatter plots analyzing the correlation between pay, employee engagement, and output.
 •	Departmental Deep-Dive: Combo charts showing headcount vs. turnover rate by department (Production being the highest headcount).
+
 📈 Key Insights from the Data
 •	High Turnover Alert: The current turnover rate is 33.32%, which indicates a need for targeted retention strategies in the Production and Sales departments.
 •	Engagement Gap: Using the Engagement vs. Turnover Box Plot, we observed that lower engagement scores directly correlate with higher termination counts.
 •	Risk Factor: Identified 31 employees currently in the "High Risk" category who require immediate intervention/engagement plans.
+
 🛠️ Technical Skills Used
 •	Advanced Excel Formulas: LET, COUNTIFS, SUMPRODUCT, and nested IF statements for risk categorization.
 •	Data Cleaning: Handling null values in termination dates and standardizing department names.
 •	Data Modeling: Created a star-schema-like structure using Excel Power Pivot.
 •	Dynamic Visuals: Implementation of Slicers (Department, Hire Year, Salary Band) for interactive reporting.
+
 📂 Project Structure
 text
 ├── Data/
@@ -34,8 +37,4 @@ text
 📸 Dashboard Preview
 Workforce Overview	Attrition Risk
  	 
-Note: Replace your_screenshot_link with the actual image links once you upload them to your GitHub repository.
-🛠️ How to Use
-1.	Download the .xlsx file from the Dashboard folder.
-2.	Open in Microsoft Excel (2019 or later recommended for full feature support).
-3.	Use the Filter Pane on the left to slice data by Year, Department, or Performance ID
+
